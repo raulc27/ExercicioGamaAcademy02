@@ -62,6 +62,8 @@ footer {
 }
 
 .imagem{
+    height:50vh;
+    max-hegiht:150px;
     width:20%;
     max-width:40%;
     padding:1%;
