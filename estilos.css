@@ -30,3 +30,30 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top:3%;
+  }
+
+.bg-img--version--1 {
+    background-image: url("https://www.bykamy.com.br/media/magpleasure/mpblog/upload/5/7/57b1bf7d80506c13b5a9d9ad3aaf491c.jpg");
+  }
+
+.secao1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.texto1{
+    max-width:20%;
+    text-align:justify;
+}
+
+.imagem{
+    width:20%;
+    max-width:40%;
+}
