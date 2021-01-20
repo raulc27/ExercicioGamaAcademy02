@@ -78,7 +78,7 @@ footer {
 
 .imagem{
     height:50vh;
-    max-hegiht:150px;
+    max-height:550px;
     width:20%;
     max-width:40%;
     padding:1%;
@@ -100,3 +100,44 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+
+
+  @media only screen and (max-width:480px){
+    .content-flex{
+      display:flow-root;
+    }
+  
+    .flex-wrap{
+      width: 100%;
+    }
+  
+    .container{
+      width: 100%;
+    }
+
+    .imagem{
+        display:none;
+    }
+
+    .secao3{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        padding-bottom:1%;
+        background-color:#000000;
+    }
+
+    p{
+        font-size:.5rem;
+    }
+    
+  }
+  
+  @media only screen and (min-width:840px){
+    .container{
+      background-color:#435740;
+      color:#ffff00;
+  
+    }
+  }
+  
