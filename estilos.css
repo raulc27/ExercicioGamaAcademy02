@@ -41,8 +41,7 @@ footer {
 
 .bg-img--version--1 {
     background-image: url("https://www.bykamy.com.br/media/magpleasure/mpblog/upload/5/7/57b1bf7d80506c13b5a9d9ad3aaf491c.jpg");
-    background-size: auto;
-  }
+}
 
 .secao1{
     display:flex;
@@ -85,3 +84,19 @@ footer {
     padding:1%;
     border-radius:7px;
 }
+
+.container-paralax {
+    height: 100vh;
+    display: flex;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content-paralax--data {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
